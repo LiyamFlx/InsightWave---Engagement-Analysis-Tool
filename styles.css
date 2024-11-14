@@ -1,0 +1,57 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: none;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.container.active {
+  display: block;
+}
+
+.start-button {
+  background-color: #a682ff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#progress-bar {
+  height: 20px;
+  background-color: #a682ff;
+  width: 0%;
+  transition: width 0.3s;
+}
+
+/* Engagement Chart */
+canvas {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 300px;
+}
+
+/* Results Screen */
+#engagement-score {
+  font-size: 2em;
+  color: #a682ff;
+}
