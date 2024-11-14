@@ -21,4 +21,10 @@ InsightWave is a tool designed to analyze audio files and provide insights into 
 2. Open `index.html` in a web browser to start using InsightWave.
 
 ## File Structure
+InsightWave/ ├── index.html ├── styles.css ├── script.js └── README.md
+
+## License
+
+This project is open-source and available for use under the [MIT License](LICENSE).
+
 
